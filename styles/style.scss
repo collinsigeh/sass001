@@ -1,0 +1,16 @@
+$defaultButtonColor: #fbccee;
+
+header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+header button{
+    background-color: $defaultButtonColor;
+}
+
+.contact button{
+    background-color: $defaultButtonColor;
+}
+
