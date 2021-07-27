@@ -4,10 +4,13 @@ header{
     background-color: lightblue;
     display: flex;
     justify-content: center;
-}
 
-header button{
-    background-color: $defaultButtonColor;
+    button{
+        background-color: $defaultButtonColor;
+        &:hover{
+            background-color: red;
+        }
+    }
 }
 
 .contact button{
