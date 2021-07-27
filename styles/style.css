@@ -16,6 +16,10 @@ header button:hover {
   background-color: red;
 }
 
+header button::after {
+  content: " youuuuu!";
+}
+
 .contact button {
   background-color: #fbccee;
 }
