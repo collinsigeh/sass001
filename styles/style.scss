@@ -1,20 +1,5 @@
-$defaultButtonColor: #fbccee;
-
-header{
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-
-    button{
-        background-color: $defaultButtonColor;
-        &:hover{
-            background-color: red;
-        }
-        &::after{
-            content: " youuuuu!";
-        }
-    }
-}
+@import "variables";
+@import  "header";
 
 .contact button{
     background-color: $defaultButtonColor;

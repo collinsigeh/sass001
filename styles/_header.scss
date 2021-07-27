@@ -1,0 +1,20 @@
+
+header{
+    background-color: $headerBackground;
+    display: flex;
+    justify-content: center;
+
+    button{
+        background-color: $defaultButtonColor;
+        &:hover{
+            background-color: red;
+        }
+        &::after{
+            content: " youuuuu!";
+        }
+    }
+
+    h1{
+        color: $defaultheaderColor;
+    }
+}

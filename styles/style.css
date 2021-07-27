@@ -20,6 +20,10 @@ header button::after {
   content: " youuuuu!";
 }
 
+header h1 {
+  color: #0b848d;
+}
+
 .contact button {
   background-color: #fbccee;
 }
